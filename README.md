@@ -22,11 +22,18 @@ PrakritiAI is a smart farming monitoring web app that helps track environmental 
 
 ## 📷 Screenshots
 
+### 🔐 Welcome Page
+![Welcome Page](./screenshots/Welcome.png)
+
 ### 🔐 Login Page
 ![Login Page](./screenshots/login-page.png)
 
-### 📊 Dashboard View
+### 📊 Dashboard with Sensor Data
 ![Dashboard](./screenshots/dashboard.png)
+
+### ⚠️ Alert for Abnormal Values
+![Alert](./screenshots/alert-card.png)
+
 
 
 ## 🚀 How to Run Locally
