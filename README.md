@@ -12,12 +12,68 @@ PrakritiAI is a smart farming monitoring web app that helps track environmental 
 
 ## 🖥️ Tech Stack
 
-- **React.js** with **TypeScript** – Frontend framework
-- **Tailwind CSS** – Styling the UI
-- **Vite** – Fast development build tool
-- **React Context API** – For managing global sensor state
-- **Lucide React Icons** – Clean and minimal icons
-- **LocalStorage** – Used for basic login and session
+### 🔹 Hardware Components
+- **NodeMCU (ESP8266):** Microcontroller for sensor integration and data transmission  
+- **Sensors:**
+  - Temperature & Humidity: *DHT11*
+  - Soil Moisture: *YL-69*
+  - Air Quality: *CO, CO₂, PM2.5*, etc.  
+- **Raspberry Pi:** Acts as a central hub for data processing and storage  
+
+### 🔐 Soil Moisture Sensor
+![Soil-Moisture-Sensor](./screenshots/Soil-Moisture-Sensor.png)
+
+### 🔹 Communication Protocol
+- **MQTT:** Lightweight protocol for real-time data transfer
+- **Wi-Fi Connectivity:** For transmitting data from sensors to Raspberry Pi and cloud servers
+
+### 🔹 Data Storage
+- **Local Storage:** SQLite3 / MySQL on Raspberry Pi
+- **Cloud Storage:** Firebase / AWS IoT Core / Google Cloud for scalability and remote access
+
+### 🔹 Data Processing & Preprocessing
+- **Python Libraries:** Pandas, NumPy, SciPy for data cleaning and transformation
+- **Edge Computing:** Raspberry Pi filters and preprocesses sensor data before cloud upload
+
+### 🔹 Machine Learning Integration *(Future Scope)*
+- **Libraries:** Scikit-learn, TensorFlow for predictive analytics
+- **Techniques:**
+  - Forecasting soil moisture
+  - Air quality anomaly detection
+  - Time series pattern recognition
+  - AI-based recommendations for irrigation and pollution control
+
+## 📱 User Interface
+
+### 🔹 Mobile Application
+- **Tech:** Flutter (Dart) / React Native for cross-platform support
+- **Data Sync:** Firebase Realtime Database / REST API
+- **Features:**
+  - Live data visualization (charts, graphs)
+  - Custom alerts & threshold notifications
+  - Historical data and trend analysis
+
+### 🔹 Web Dashboard
+- **Backend:** Django (Python) for server-side logic, authentication, and templating
+- **Frontend:**
+  - HTML / CSS (Bootstrap)
+  - JavaScript for interactivity, AJAX, dynamic updates
+- **Templating:** Django templates integrated with Bootstrap for a responsive UI
+
+## ✅ Testing & Deployment
+
+### 🔹 Unit & Integration Testing
+- **Software:** Pytest / Selenium / JUnit  
+- **Hardware:** Calibration and validation of real-world sensor outputs
+
+### 🔹 Cloud Deployment
+- **AWS IoT Core** for cloud-based data ingestion and analytics
+
+### 🔹 Mobile App Deployment
+- **Google Play Store / Apple App Store** for end-user access
+
+### 🔹 Version Control & CI/CD
+- **GitHub / GitLab CI/CD** for version management and automated deployment
 
 
 ## 📷 Screenshots
