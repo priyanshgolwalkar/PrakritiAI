@@ -21,8 +21,12 @@ PrakritiAI is a smart farming monitoring web app that helps track environmental 
 - **Raspberry Pi:** Acts as a central hub for data processing and storage  
 
 ### 🔐NodeMCU (ESP8266) integrated with Sensors
-![Soil-Moisture-Sensor](./screenshots/Soil-Moisture-Sensor.png)
 
+## Ultrasonic-sensor
+![ultrasonic-sensor](./screenshots/ultrasonic-sensor.png)
+
+## IR-Sensor
+![IR-Sensor](./screenshots/IR-sensor.png)
 ### 🔹 Communication Protocol
 - **MQTT:** Lightweight protocol for real-time data transfer
 - **Wi-Fi Connectivity:** For transmitting data from sensors to Raspberry Pi and cloud servers
