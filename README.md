@@ -20,7 +20,7 @@ PrakritiAI is a smart farming monitoring web app that helps track environmental 
   - Air Quality: *CO, CO₂, PM2.5*, etc.  
 - **Raspberry Pi:** Acts as a central hub for data processing and storage  
 
-### 🔐 Soil Moisture Sensor
+### 🔐NodeMCU (ESP8266) integrated with Sensors
 ![Soil-Moisture-Sensor](./screenshots/Soil-Moisture-Sensor.png)
 
 ### 🔹 Communication Protocol
